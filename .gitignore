@@ -47,3 +47,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# RStudio specific files
+.Rproj.user/
+*.Rproj
+
+*.DS_Store
+
+# Ignore local folder
+local/
+
