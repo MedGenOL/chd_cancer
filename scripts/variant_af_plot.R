@@ -25,17 +25,14 @@ pacman::p_load(
   qqman
 )
 
-# set work dir
-
-user <- Sys.getenv("USERPROFILE")
-setwd(glue(r'({user}\Nextcloud)'))
-
 # remove files from env
 # remove all previous plots
-
 rm(list = ls())
 graphics.off()
 
+# set work dir
+user <- Sys.getenv("USERPROFILE")
+setwd(glue(r'({user}\Nextcloud)'))
 
 ############## Note on file ########################
 #                                                 ##
